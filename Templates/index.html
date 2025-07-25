@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Anonimizador LGPD - SEDECTI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="header">
+        <img src="/static/logo.png" alt="Logo Governo do Estado do Amazonas">
+    </div>
+
+    <div class="container">
+        <h2>Anonimizador de Dados Pessoais (LGPD)</h2>
+        <form action="/uploadform" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".pdf" required>
+            <button type="submit">Enviar PDF</button>
+        </form>
+    </div>
+</body>
+</html>
